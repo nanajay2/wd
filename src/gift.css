@@ -1,0 +1,62 @@
+body {
+    background-color: #afe4fb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-bottom: 50px; 
+}
+
+#bank {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1d7b9d;
+    margin-top: 10px; 
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px; 
+}
+
+#cat {
+    width: 300px;
+    height: auto;
+}
+
+.left-fixed {
+    position: absolute;
+    margin-top: 10px;
+    display: inline;
+    left: 5px;
+}
+
+#left {
+    width: auto;
+    height: 120vh;
+}
+
+.right-fixed {
+    position: absolute;
+    margin-top: 10px;
+    display: inline;
+    right: 5px;
+}
+
+#right {
+    width: auto;
+    height: 120vh;
+}
